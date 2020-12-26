@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27137" started-at="2020-12-25T08:43:03Z" finished-at="2020-12-25T08:43:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27137" started-at="2020-12-25T08:43:03Z" finished-at="2020-12-25T08:43:30Z">
+      <class name="com.OrangeHRM.SauceLabs_LoginPage">
+        <test-method status="PASS" signature="SauceLab_Example()[pri:0, instance:com.OrangeHRM.SauceLabs_LoginPage@204f30ec]" name="SauceLab_Example" duration-ms="27100" started-at="2020-12-25T08:43:03Z" finished-at="2020-12-25T08:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SauceLab_Example -->
+      </class> <!-- com.OrangeHRM.SauceLabs_LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

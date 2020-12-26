@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1">
+	<test name="Test1">
+	    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login" />
+		<parameter name="user" value="Admin" />
+		<parameter name="pass" value="admin123" />
+		<classes>
+      <class name="com.OrangeHRM.LoginPageWithDataProvider"/>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test3">
+	    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login" />
+		<parameter name="user" value="kumar" />
+		<parameter name="pass" value="admin123" />
+		<classes>
+      <class name="com.OrangeHRM.LoginPageWithDataProvider"/>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test4">
+	    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login" />
+		<parameter name="user" value="dixit5" />
+		<parameter name="pass" value="admin123" />
+		<classes>
+      <class name="com.OrangeHRM.LoginPageWithDataProvider"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
